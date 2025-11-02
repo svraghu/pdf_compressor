@@ -15,6 +15,8 @@ from PySide6.QtWidgets import (
     QGridLayout
 )
 
+from pdf_compressor import compress_pdf
+
 class CompressorWindow(QMainWindow):
     def __init__(self):
         super().__init__()
